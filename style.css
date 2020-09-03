@@ -195,8 +195,31 @@ header::after{
     
 }
 
+
+
 html{
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+#AboutMe,
+#Projects,
+#Skills,
+#Resume,
+#Contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#AboutMe {
+  background: rgb(47, 69, 117);
+}
+#Projects {
+  background: rgb(91, 47, 117);
+}
+#Skills {
+  background: rgb(47, 117, 100);
 }
 
 .imgAbout{
