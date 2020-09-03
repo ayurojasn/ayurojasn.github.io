@@ -199,4 +199,11 @@ html{
 	scroll-behavior: smooth;
 }
 
+.imgAbout{
+   margin-top: 100px;
+   margin-right: 150px;
+   width: 500px;
+   height: 500px;
+   float: right;
+}
 
