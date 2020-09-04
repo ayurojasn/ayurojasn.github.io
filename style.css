@@ -96,7 +96,7 @@ header::after{
 }
 
 
-@media screen and (max-width: 1825px){
+@media only screen and (min-width: 830px){
     .nav-links{
         display:flex;
         justify-content: space-around;
@@ -104,39 +104,7 @@ header::after{
     }
 }
 
-@media screen and (max-width: 1625px){
-    .nav-links{
-        display:flex;
-        justify-content: space-around;
-        width: 576px;
-    }
-}
-
-@media screen and (max-width: 1425px){
-    .nav-links{
-        display:flex;
-        justify-content: space-around;
-        width: 576px;
-    }
-}
-
-@media screen and (max-width: 1225px){
-    .nav-links{
-        display:flex;
-        justify-content: space-around;
-        width: 576px;
-    }
-}
-
-@media screen and (max-width: 1025px){
-    .nav-links{
-        display:flex;
-        justify-content: space-around;
-        width: 576px;
-    }
-}
-
-@media screen and (max-width: 830px){
+@media only screen and (max-width: 830px){
     
     .line{
         width: 30px;
@@ -149,6 +117,7 @@ header::after{
         flex-direction: column;
         align-items: center;
         display: inherit;
+        min-height: 8vh;
     }
 
     .hamburger{
@@ -159,11 +128,12 @@ header::after{
         top: 50%;
         transform: translate(-5%, -50%);
     }
+
     .logo {
         display: inline-block;
-        margin-top: 15px;
-        margin-left: 13px;
-        
+        margin-top: 13px;
+        margin-left: 16px;
+        margin-bottom: 12px;
     }
  
     .nav-links li{
@@ -172,6 +142,7 @@ header::after{
        margin: 30px 0;
        
     }
+    
     .nav-links{
         
         position: fixed;
