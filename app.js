@@ -8,11 +8,11 @@ hamburger.addEventListener('click', () => {
 });
 
 function hover(element) {
-    element.setAttribute('src', 'realProfilePhoto.svg');
+    element.setAttribute('src', 'img/realProfilePhoto.svg');
   }
   
   function unhover(element) {
-    element.setAttribute('src', 'profilePhoto.svg');
+    element.setAttribute('src', 'img/profilePhoto.svg');
   }
 
 
