@@ -3,10 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .main{
    padding-bottom: 35%;
 }
+
 header{
+   background-color: white;
    position: fixed;
    top:0;
    width: 100%;
@@ -15,23 +18,22 @@ header{
 
 nav{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    font-family: 'PT Sans Caption', sans-serif;
-    background-color: #407c96;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
-    color: rgba(231, 230, 230, 0.952);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    color: #0D6E98;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: 10px;
     border: #ff9398 2px solid;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     padding-right: 2px;
-    padding-left: 12px;
+    padding-left: 10px;
     
 }
 
@@ -41,34 +43,20 @@ header::after{
  clear: both;
  
 }
-.nav-links{
-    display:flex;
-    justify-content: space-around;
-    width: 30%;
-    
-}
-.nav-links ul{
-    margin:0;
-    padding:0;
-    list-style:none ;   
-    position: fixed;
-    
-}
+
 
 .nav-links li{
     list-style: none;
-    display: inline-block;
     position: relative;
-    padding: 25px 0;
-    
+    padding: 28px 0;
+    margin-left: 50px;
 }
+
 .nav-links a{
-    color:  rgba(231, 230, 230, 0.952);
+    color: #0D6E98;
     text-decoration: none;
-    letter-spacing: 1px;
     font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;   
+    font-size: 16px;   
     
 }
     
@@ -79,11 +67,11 @@ header::after{
 .nav-links a::before{
     content: '';
     display: block;
-    height: 5px;
+    height: 4px;
     width: 0%;
     background-color: #ff9398;
     position: absolute;
-    bottom: 0;
+    top: 0;
     transition: all ease-in-out 250ms;
 }
 
@@ -99,7 +87,7 @@ header::after{
 @media only screen and (min-width: 830px){
     .nav-links{
         display:flex;
-        justify-content: space-around;
+        margin-left: 70px;
         width: 576px;
     }
 }
@@ -109,7 +97,7 @@ header::after{
     .line{
         width: 30px;
         height: 3px;
-        background: white;
+        background-color: #0D6E98;
         margin:5px;
     }
  
@@ -118,6 +106,7 @@ header::after{
         align-items: center;
         display: inherit;
         min-height: 8vh;
+        margin-top: 2px;
     }
 
     .hamburger{
@@ -145,8 +134,9 @@ header::after{
     
     .nav-links{
         
+        margin-left: 0px;
         position: fixed;
-        background-color: #407c96;
+        background-color: white;
         height: 100vh;
         width: 100%;
         justify-content: space-around;
