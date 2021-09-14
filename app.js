@@ -7,4 +7,12 @@ hamburger.addEventListener('click', () => {
     navLinks.classList.toggle("open");
 });
 
+function hover(element) {
+    element.setAttribute('src', 'realProfilePhoto.svg');
+  }
+  
+  function unhover(element) {
+    element.setAttribute('src', 'profilePhoto.svg');
+  }
+
 
