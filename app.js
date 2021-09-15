@@ -15,4 +15,9 @@ function hover(element) {
     element.setAttribute('src', 'img/profilePhoto.svg');
   }
 
-
+  var typed = new Typed('.typing',{
+    strings: ["Developer", "Fast learner", "UX/UI lover", "Team leader", "Dedicated", "Engineer"],
+    loop: true,
+    typeSpeed: 80,
+    backSpeed: 40
+  });

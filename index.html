@@ -13,6 +13,9 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Add jquery cdn -->
+    <script src="./typed/typed.min.js"></script>
 
     <title>Juliana</title>
 </head>
@@ -39,12 +42,23 @@
         </nav>
     </header>
 
-    <script src="app.js"></script>
-    <main class="main"> 
-        <section id="AboutMe">
-    
+        
+    <section id="About">
+            
        <img class="imgAbout" src="img/profilePhoto.svg" onmouseover="hover(this);" onmouseout="unhover(this);" />
-    </main>
+      
+       <div class="principalText">
+        <h1 class="hi">Hi!</h1>
+        <h2 class="name">I'm <span style="color: #0D6E98">Juliana Rojas Naranjo</span></h2>
+        <h3><span class="typing"></span></h3>
+        <h3>Systems engineering student at <a class="javeriana" href="https://www.javeriana.edu.co/inicio" target="_blank">Pontificia Universidad Javeriana</a> in Bogotá, Colombia and I'll be graduating in March 2023.</h3>
+        </div>
+       
+    </section>
+    
+  
+    <script src="app.js"></script>
+    
 
 </body>
 

@@ -2,10 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-.main{
-   padding-bottom: 35%;
+#About{
+   padding-top: 20px;
 }
 
 header{
@@ -35,13 +36,6 @@ nav{
     padding-right: 2px;
     padding-left: 10px;
     
-}
-
-header::after{
- content: '';
- display: table;
- clear: both;
- 
 }
 
 
@@ -83,6 +77,23 @@ header::after{
     display: none;
 }
 
+.principalText{
+    margin-left: 40px;
+    margin-top: 220px;
+}
+
+.hi{
+    font-size: 56px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.javeriana{
+    text-decoration: none;
+    color:#73bcdb;
+}
 
 @media only screen and (min-width: 830px){
     .nav-links{
@@ -155,7 +166,6 @@ header::after{
     }
     
 }
-
 
 
 html{
