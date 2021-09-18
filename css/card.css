@@ -1,0 +1,85 @@
+.card-list {
+    width: 900px; /*300 celular*/
+    display: flex;
+    padding: 1rem;
+    overflow-x: scroll; /*para celular*/
+    scrollbar-color: #0d6e98 #e4e4e4;
+    scrollbar-width: thin;
+    margin:auto;
+
+}
+  
+.card {
+    position: relative;
+    flex-direction: column;
+    height: 300px;
+    min-width: 230px;
+    padding: 1.5rem;
+    border-radius: 15px;
+    background: #3d3c3d;
+    box-shadow: 0rem 0 1rem #000;
+    transition: .2s;
+}
+
+.card:hover {
+    transform: translateY(-1rem);
+}
+
+.card:hover~.card {
+    transform: translateX(130px);
+}
+
+
+.card:not(:first-child) {
+    margin-left: -130px;
+}
+
+.card-skill {
+    position: relative;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+    margin: 3rem 0 0;
+}
+
+.skill-prefix{
+    color:white;
+    font-weight: bold;
+}
+
+.skill-name{
+     color:white;
+}
+
+.skill-avatar img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 16px 5px;
+}
+
+.half-circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 48px;
+    fill: none;
+    stroke: white; /*?*/
+    stroke-width: 8;
+    stroke-linecap: round;
+}
+
+
+.tags{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.tags i{
+    margin:2px;
+    color: #ff9398;
+}

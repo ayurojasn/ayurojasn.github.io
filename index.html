@@ -10,14 +10,18 @@
     <meta name="robots" content="index,follow" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/card.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Add jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- js to use Typed.js -->
     <script src="./typed/typed.min.js"></script>
 
     <title>Juliana</title>
+    
 </head>
 
 <body>
@@ -30,7 +34,8 @@
 
             <ul class="nav-links">
                 <li><a class="ab" href="#About">About</a></li>
-                <li><a class="sk" href="#Tips">UI/UX Tips</a></li>
+                <li><a class="sk" href="#Skills">Skills</a></li>
+                <li><a class="tp" href="#Tips">UI/UX Tips</a></li>
                 <li><a class="co" href="#Contact">Contact</a></li>
             </ul>
 
@@ -42,23 +47,270 @@
         </nav>
     </header>
 
-        
+
     <section id="About">
-            
-       <img class="imgAbout" src="img/profilePhoto.svg" onmouseover="hover(this);" onmouseout="unhover(this);" />
-      
-       <div class="principalText">
-        <h1 class="hi">Hi!</h1>
-        <h2 class="name">I'm <span style="color: #0D6E98">Juliana Rojas Naranjo</span></h2>
-        <h3><span class="typing"></span></h3>
-        <h3>Systems engineering student at <a class="javeriana" href="https://www.javeriana.edu.co/inicio" target="_blank">Pontificia Universidad Javeriana</a> in Bogotá, Colombia and I'll be graduating in March 2023.</h3>
+
+        <!-- <a href="" class="text">Hover me &darr;</a> -->
+        <img class="imgAbout" src="img/profilePhoto.svg" onmouseover="hover(this);" onmouseout="unhover(this);" />
+        <div class="principalText">
+            <h1 class="hi">Hi!</h1>
+            <h2 class="name">I'm <span style="color: #0D6E98">Juliana Rojas Naranjo</span></h2>
+            <h3><span class="typing"></span></h3>
+            <h3>Systems engineering student at <a class="javeriana" href="https://www.javeriana.edu.co/inicio"
+                    target="_blank">Pontificia Universidad Javeriana</a> in Bogotá, Colombia and I'll be graduating in
+                March 2023.</h3>
         </div>
-       
+
     </section>
-    
-  
+
+    <section id="Skills">
+
+        <h1 class="skillsTitle">&lt Skills &gt</h1>
+
+        <!-- Cards -->
+        <div class="card-list">
+ 
+            <article class="card">
+     
+            
+              <div class="card-skill">
+                <a class="skill-avatar">
+                    <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
+                </a>
+                <svg class="half-circle" viewBox="0 0 106 57">
+                  <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                </svg>
+      
+                <div class="skill-name">
+                  <div class="skill-prefix">Programming Language</div>
+                  C++
+                </div>
+              </div>
+              
+              <div class="tags">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+            </article>
+
+            
+            <article class="card">
+     
+                <div class="card-skill">
+                  <a class="skill-avatar">
+                    <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"/>                  </a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+        
+                  <div class="skill-name">
+                    <div class="skill-prefix">Programming Language</div>
+                    Java
+                  </div>
+                </div>
+                
+                <div class="tags">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+              </article>
+
+              <article class="card">
+     
+                <div class="card-skill">
+                  <a class="skill-avatar">
+                    <img src="https://img.icons8.com/fluency/48/000000/python.png"/>
+                  </a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+        
+                  <div class="skill-name">
+                    <div class="skill-prefix">Programming Language</div>
+                    Python
+                  </div>
+                </div>
+                
+                <div class="tags">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="far fa-star" aria-hidden="true"></i>
+                  <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+              </article>
+
+              <article class="card">
+     
+                <div class="card-skill">
+                  <a class="skill-avatar">
+                    <img src="https://img.icons8.com/color/48/000000/git.png"/>
+                  </a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+        
+                  <div class="skill-name">
+                    <div class="skill-prefix">Version Control</div>
+                    Git
+                  </div>
+                </div>
+                
+                <div class="tags">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+              </article>
+              <article class="card">
+     
+                <div class="card-skill">
+                  <a class="skill-avatar">
+                    <img src="https://img.icons8.com/color/48/000000/android-studio--v3.png"/>
+                  </a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+        
+                  <div class="skill-name">
+                    <div class="skill-prefix">IDE</div>
+                    Android
+                  </div>
+                </div>
+                
+                <div class="tags">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+              </article>
+
+              <article class="card">
+     
+                <div class="card-skill">
+                  <a class="skill-avatar">
+                    <img src="https://img.icons8.com/color/48/000000/vue-js.png"/>
+                  </a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+        
+                  <div class="skill-name">
+                    <div class="skill-prefix">JavaScript framework</div>
+                    Vue.js
+                  </div>
+                </div>
+                
+                <div class="tags">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+              </article>
+
+              <article class="card">
+     
+                <div class="card-skill">
+                  <a class="skill-avatar">
+                    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
+                  </a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+        
+                  <div class="skill-name">
+                    <div class="skill-prefix">Technology</div>
+                    HTML
+                  </div>
+                </div>
+                
+                <div class="tags">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </article>
+
+              <article class="card">
+     
+                <div class="card-skill">
+                  <a class="skill-avatar">
+                    <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                  </a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+        
+                  <div class="skill-name">
+                    <div class="skill-prefix">Technology</div>
+                    CSS
+                  </div>
+                </div>
+                
+                <div class="tags">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </article>
+
+              <article class="card">
+     
+                <div class="card-skill">
+                  <a class="skill-avatar">
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
+                  </a>
+                  <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                  </svg>
+        
+                  <div class="skill-name">
+                    <div class="skill-prefix">Scripting language</div>
+                    JavaScript
+                  </div>
+                </div>
+                
+                <div class="tags">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                    <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+              </article>
+
+              
+      
+           
+      
+      
+       </div>
+      
+
+    </section>
+
+    <section id="Contact">
+        
+    </section>
+
     <script src="app.js"></script>
-    
+
 
 </body>
 
