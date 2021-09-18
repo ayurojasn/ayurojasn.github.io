@@ -13,14 +13,12 @@ html {
 
 /*Sections*/
 #About{
-    overflow: auto;
+    display: flex;
     padding-bottom: 95px;
 }
 
 #Skills {
   padding-bottom: 115px;
-  overflow: auto;
- 
 }
 
 #Contact{
@@ -98,7 +96,7 @@ nav {
   margin-top: 190px;
   padding-top: 50px;
   margin-left: 40px;
-
+  float: left;
 }
 
 .hi {
@@ -115,10 +113,9 @@ nav {
 }
 
 .imgAbout {
-  margin-top: 180px;
   margin-right: 40px;
   width: 500px;
-  float: right;
+  margin-top: 180px;
 }
 
 /*Skills content*/
@@ -140,7 +137,7 @@ nav {
     }
   }
   
-  @media only screen and (max-width: 830px) {
+@media only screen and (max-width: 830px) {
     .line {
       width: 30px;
       height: 3px;
@@ -195,6 +192,8 @@ nav {
       clip-path: circle(1010px at 90% -30%);
       -webkit-clip-path: circle(1010px at 90% -30%);
     }
+
+    
   }
   
   

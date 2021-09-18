@@ -83,3 +83,16 @@
     margin:2px;
     color: #ff9398;
 }
+
+@media only screen and (max-width: 830px){
+    .card-list {
+        width: 300px; /*300 celular*/
+        display: flex;
+        padding: 1rem;
+        overflow-x: scroll; /*para celular*/
+        scrollbar-color: #0d6e98 #e4e4e4;
+        scrollbar-width: thin;
+        margin:auto;
+    
+    }
+}
