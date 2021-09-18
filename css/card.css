@@ -2,6 +2,7 @@
     width: 900px; /*300 celular*/
     display: flex;
     padding: 1rem;
+    padding-top: 35px;
     overflow-x: scroll; /*para celular*/
     scrollbar-color: #0d6e98 #e4e4e4;
     scrollbar-width: thin;
