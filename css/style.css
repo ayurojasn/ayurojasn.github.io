@@ -11,6 +11,18 @@ html {
     scroll-padding-top: 82px;
 }
 
+/*Scrollbar custom*/
+html::-webkit-scrollbar {
+  width: 9px;
+  background-color: #ffffff;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #ff9398;
+}
+
+
 /*Sections*/
 #About{
     display: flex;
@@ -22,7 +34,7 @@ html {
 }
 
 #Contact{
- overflow: auto;
+  overflow: auto;
 }
 
 /*Header and NavBar*/
