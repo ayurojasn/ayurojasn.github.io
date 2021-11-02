@@ -4,6 +4,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  /*background-color: #3a4a5a;*/
 }
 
 html {
@@ -14,11 +15,18 @@ html {
 /*Sections*/
 #About{
     display: flex;
-    padding-bottom: 95px;
+    padding-bottom: 180px;
+    background-image: url(/img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 #Skills {
-  padding-bottom: 115px;
+  padding-bottom: 155px;
+  background-image: url(/img/secondWave.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
 }
 
 #Contact{
@@ -93,7 +101,7 @@ nav {
 
 /*About content*/
 .principalText {
-  margin-top: 190px;
+  margin-top: 150px;
   padding-top: 50px;
   margin-left: 40px;
   float: left;
@@ -115,17 +123,15 @@ nav {
 .imgAbout {
   margin-right: 40px;
   width: 500px;
-  margin-top: 180px;
+  margin-top: 100px;
   float: right;
 }
 
 /*Skills content*/
 .skillsTitle{
   color: #0d6e98;
-  display: flex;
   margin:auto;
-  justify-content: center;
-  padding: 40px;
+  /* justify-content: center; */
   font-size: 56px;
 }
 

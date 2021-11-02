@@ -1,5 +1,5 @@
 .card-list {
-    width: 900px; /*300 celular*/
+    width: 800px; /*300 celular*/
     display: flex;
     padding: 1rem;
     padding-top: 35px;
@@ -17,8 +17,8 @@
     min-width: 230px;
     padding: 1.5rem;
     border-radius: 15px;
-    background: #3d3c3d;
-    box-shadow: 0rem 0 1rem #000;
+    background: #5e5c5e;
+    box-shadow: 0rem 0 1rem rgb(29, 29, 29);
     transition: .2s;
 }
 
