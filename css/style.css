@@ -10,6 +10,8 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 82px;
+    height:100%;
+    width:100%;
 }
 
 /*Sections*/
@@ -21,6 +23,8 @@ html {
     background-position: bottom;
     background-size: 100%;
     display: flex;
+    height:100vh;
+    width: 100vw;
 }
 
 #Skills {
@@ -31,6 +35,8 @@ html {
   background-size: 100%;
   display: flex;
   margin-top: -0.1rem;
+  height:100vh;
+    width: 100vw;
 }
 
 #Contact{
