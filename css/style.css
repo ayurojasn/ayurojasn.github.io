@@ -19,6 +19,8 @@ html {
     background-image: url(/img/wave.svg);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 100%;
+    display: flex;
 }
 
 #Skills {
@@ -26,7 +28,9 @@ html {
   background-image: url(/img/secondWave.svg);
   background-repeat: no-repeat;
   background-position: top;
+  background-size: 100%;
   display: flex;
+  margin-top: -0.1rem;
 }
 
 #Contact{
